@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(199, 197, 194);
+    display: grid;
+    grid-template-columns: 0.8fr 2.7fr 1.3fr;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+
+}
+
+.sidebar-left {
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+
+}
+
+header .logo {
+    background-color: blue;
+    height: 27%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+}
+
+.content span {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(240, 233, 230);
+    border-radius: 10px;
+    height: 300px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer img{
+    width: 150px;
+    margin-top: -100px; 
+    
+}
+
+.text1,
+.text2 {
+    text-align: center;
+    width: 100%;
+
+}
+
+input {
+    padding: 15px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: rgb(103, 103, 216);
+    color: white;
+    border: none;
+
+}
+
+main {
+    background-color: rgb(248, 233, 233);
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 10% 20% 45% 5% 20%;
+}
+
+main .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+
+
+}
+
+main .navbar i {
+    background-color: rgb(199, 206, 240);
+    padding: 10px;
+    color: blue;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.main-header {
+    background-color: rgb(250, 210, 217);
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+
+
+}
+
+.header1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200%;
+    margin-left: 50px;
+}
+
+.header1 p:nth-child(1) {
+    color: red;
+}
+
+.header2 img {
+    width: 200px;
+    margin-right: 200px;
+
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 15px;
+}
+
+.top-first {
+    display: flex;
+    gap: 10px;
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top1-first {
+    display: flex;
+}
+
+.top1-second {
+    display: flex;
+    gap: 20px;
+
+}
+
+.top1 input {
+    width: 100%;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 43% 54%;
+    gap: 3%;
+    padding: 3%;
+}
+
+
+.main-content .content1,
+.content1-last {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content1-last .top1:nth-child(1),
+.top1:nth-child(2),
+.top1:nth-child(3),
+.top1:nth-child(4) {
+    border-bottom: 1px solid rgb(218, 213, 213);
+}
+
+.content1,
+.content2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-footer {
+    padding: 3%;
+    display: grid;
+    gap: 3%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.content2 .range {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.content2 .range progress {
+    width: 8px;
+    height: 200px;
+    border-radius: 40px;
+    border: 1px solid gray;
+    display: flex;
+
+}
+
+.range label {
+    color: gray;
+}
+
+.group-subjects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.group-subjects i:nth-child(1){
+    color: rgb(233, 82, 82);
+}
+.group-subjects i:nth-child(3){
+    color: rgb(0, 17, 255);
+}
+.group-subjects i:nth-child(5){
+    color: rgb(107, 114, 223);
+}
+.group-subjects i:nth-child(7){
+    color: rgb(198, 200, 235);
+}
+.footer1,
+.footer2,
+.footer3 {
+    display: flex;
+    color: white;
+    gap: 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.footer1 p:nth-child(1),
+.footer2 p:nth-child(1),
+.footer3 p:nth-child(1) {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.footer1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer1-text .subject {
+    display: flex;
+    gap: 50px;
+}
+
+.footer1 {
+    background-color: rgb(46, 46, 233);
+}
+
+.footer1 p {
+    background-color: rgb(43, 73, 209);
+}
+
+.footer2 {
+    background-color: rgb(104, 61, 145);
+}
+
+.footer2 p {
+    background-color: blueviolet;
+}
+
+.footer3 {
+    background-color: rgb(230, 71, 71);
+}
+
+.footer3 p {
+    background-color: rgb(252, 88, 88);
+}
+
+
+
+/* sidebar-right */
+.sidebar-right {
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+
+}
+
+.head .first {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.head .second {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head .second .logo img {
+    width: 200px;
+    border: 1px solid rgb(224, 210, 210);
+    border-radius: 50%;
+}
+
+.head .second .about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main-content1 .second1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.group-range {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.second1 .right {
+    display: flex;
+    gap: 20px;
+}
+
+.second1 .right .logo {
+    background-color: rgb(236, 227, 227);
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20%;
+}
+
+.foot .list1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot .list2,
+.list3,
+.list4,
+.list5 {
+    display: flex;
+    gap: 20px;
+}
+
+.foot .list5 {
+    color: rgb(180, 174, 174);
+
+}
+
+.icon{
+    background-color: rgb(243, 222, 222);
+    padding: 10px;
+    border-radius: 5px;
+}
+span {
+    color: rgb(156, 147, 147);
+}
+
+p {
+    font-size: 15px;
+}
